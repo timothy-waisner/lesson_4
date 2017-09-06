@@ -10,7 +10,9 @@ LIGHT BLUE: #00E2FF
 
 body {
     background-color: none;
-    color: #2D00FF
+    color: #2D00FF;
+    font-family: "Oswald"
+    
 }
 
 header {
@@ -23,7 +25,7 @@ header {
 #header > h1 {
     margin: 0;
     text-align: center;
-    font-family: "Oswald";
+/*    font-family: "Oswald";*/
     position: relative;
     transform: translateY(50%);
     
@@ -33,7 +35,7 @@ header {
     width:100%;
     background-color:#2D00FF;
     min-height: 80px;
-    font-family: "Oswald";
+/*    font-family: "Oswald";*/
     height: auto;
     
 }
@@ -46,7 +48,7 @@ header {
     
 }
 
-#nav > ul >button {
+#nav > ul > button {
     min-width: 120px;
     color: white;
     background-color: #E8A20C;
@@ -55,8 +57,8 @@ header {
     transition: background-color .25s;
 
 }
-#nav > ul >button:hover {
-    background-color: #E8A20C;
+#nav > ul > button:hover {
+    background-color: #FF0082;
 }
 .menu {
     display: flex;
@@ -67,7 +69,7 @@ header {
 }
 #middle-wrapper-width {
     display: flex;
-    font-family: "Oswald";
+/*    font-family: "Oswald";*/
     max-width: 960px;
     margin: 0 auto;
     
@@ -95,7 +97,7 @@ header {
 
 .image-content > h4 {
     
-    font-family: "Oswald";
+/*    font-family: "Oswald";*/
     font-weight: 300;
     color: #FF0082;
     
@@ -135,7 +137,7 @@ header {
 #aside-content-wrapper {
     background-color: white;
     width: 35%;
-    font-family: "Oswald";
+/*    font-family: "Oswald";*/
 }
 #aside-right {
     margin: 0 50px 0 8px
@@ -162,7 +164,7 @@ header {
 
 #latest-work > li:before {
     content: "";
-    border-color: transparent #008ef;
+    border-color: transparent #008ef9;
     border-style: solid;
     border-width: .35em 0 .35em .45em;
     display: block;
@@ -173,18 +175,33 @@ header {
     position: relative;
 
     
-    vid 5 807
 }
 
 
 
+#favorite-sites {
+    background-image: url(img/bg.jpg) ;
+    border-top: 5px #b2790f solid;
+    border-bottom: 5px #008ef9 solid;
+    
+}
 
 
-footer {
-    background-color: coral;
+#favorite-sites ul {
+   list-style-type: none;
+   display: flex;
+    justify-content: space-around;
     margin: 0;
+    padding: 40px;
+}
+footer {
+    background-color: #fff;
+  text-align: center;
+/*    font-family: "Oswald";*/
+    min-height: 100px;
 }
 
 footer > h1 {
     margin: 0;
+    transform: translateY(50%);
 }
